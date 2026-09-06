@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>THE ATHENS FILE — Isidora Gkounidi Spotted With Trannos</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    :root {
+        --red: #e00000;
+        --darkred: #a80000;
+        --black: #090909;
+        --gray: #6d6d6d;
+        --light: #f4f4f4;
+        --border: #dedede;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: white;
+        color: #111;
+        line-height: 1.45;
+        overflow-x: hidden;
+    }
+
+    /* TOP PARODY NOTICE */
+
+    .parody-bar {
+        background: #111;
+        color: white;
+        text-align: center;
+        padding: 6px 10px;
+        font-size: 10px;
+        letter-spacing: 1.8px;
+        font-weight: 800;
+    }
+
+    /* HEADER */
+
+    header {
+        background: white;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .header-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 15px;
+    }
+
+    .menu {
+        font-size: 24px;
+        width: 35px;
+    }
+
+    .logo {
+        text-align: center;
+        font-family: Georgia, serif;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 18px;
+        letter-spacing: -1px;
+    }
+
+    .logo span {
+        color: var(--red);
+    }
+
+    .search {
+        width: 35px;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .nav {
+        display: flex;
+        overflow-x: auto;
+        gap: 22px;
+        padding: 9px 15px;
+        border-top: 1px solid #eee;
+        white-space: nowrap;
+        font-size: 11px;
+        font-weight: 800;
+    }
+
+    .nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* BREAKING */
+
+    .breaking {
+        display: flex;
+        background: var(--red);
+        color: white;
+        height: 37px;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .breaking-label {
+        background: #870000;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        font-weight: 900;
+        font-size: 11px;
+        flex-shrink: 0;
+    }
+
+    .breaking-text {
+        white-space: nowrap;
+        font-weight: 700;
+        font-size: 12px;
+        padding-left: 15px;
+        animation: ticker 17s linear infinite;
+    }
+
+    @keyframes ticker {
+        from {
+            transform: translateX(40%);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    /* ARTICLE */
+
+    .page {
+        max-width: 680px;
+        margin: auto;
+    }
+
+    .category {
+        color: var(--red);
+        font-size: 12px;
+        font-weight: 900;
+        margin: 22px 16px 8px;
+        letter-spacing: .8px;
+    }
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 35px;
+        line-height: 1.02;
+        margin: 0 16px;
+        letter-spacing: -1.5px;
+    }
+
+    .subheadline {
+        font-size: 17px;
+        line-height: 1.35;
+        margin: 15px 16px;
+        color: #444;
+        font-weight: 600;
+    }
+
+    .meta {
+        margin: 16px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 12px 0;
+        font-size: 11px;
+        color: #666;
+    }
+
+    .meta strong {
+        color: black;
+    }
+
+    .share-row {
+        display: flex;
+        gap: 8px;
+        margin: 14px 16px 18px;
+    }
+
+    .share {
+        border-radius: 50%;
+        background: #111;
+        color: white;
+        height: 38px;
+        width: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    /* HERO */
+
+    .hero-wrap {
+        position: relative;
+    }
+
+    .hero {
+        width: 100%;
+        display: block;
+        max-height: 720px;
+        object-fit: cover;
+    }
+
+    .exclusive {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        background: var(--red);
+        color: white;
+        padding: 7px 10px;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .caption {
+        padding: 8px 13px;
+        color: #737373;
+        font-size: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* ARTICLE TEXT */
+
+    .article {
+        padding: 8px 17px 25px;
+    }
+
+    .article p {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 19px 0;
+    }
+
+    .article p:first-child::first-letter {
+        font-size: 60px;
+        line-height: 44px;
+        float: left;
+        padding-right: 7px;
+        font-weight: bold;
+    }
+
+    .red {
+        color: var(--red);
+        font-weight: bold;
+    }
+
+    /* FAKE UPDATE BOX */
+
+    .live-box {
+        background: #111;
+        color: white;
+        margin: 15px 0 22px;
+        padding: 18px;
+        border-left: 6px solid var(--red);
+    }
+
+    .live-title {
+        color: #ff3333;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+
+    .live-main {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.15;
+    }
+
+    .live-small {
+        font-family: Arial;
+        color: #ccc;
+        font-size: 11px;
+        margin-top: 9px;
+    }
+
+    /* QUOTE */
+
+    blockquote {
+        border-left: 5px solid var(--red);
+        margin: 27px 0;
+        padding: 0 0 0 17px;
+        font-family: Georgia, serif;
+        font-size: 25px;
+        line-height: 1.2;
+        font-weight: bold;
+    }
+
+    /* SECTION TITLE */
+
+    .section-title {
+        font-family: Georgia, serif;
+        font-size: 28px;
+        line-height: 1.05;
+        margin: 34px 0 12px;
+    }
+
+    /* INLINE PHOTOS */
+
+    .story-image {
+        width: calc(100% + 34px);
+        margin-left: -17px;
+        display: block;
+        margin-top: 22px;
+    }
+
+    .image-caption {
+        font-family: Arial !important;
+        font-size: 10px !important;
+        line-height: 1.4 !important;
+        color: #777;
+        margin: 6px 0 22px !important;
+    }
+
+    /* WORLD REACTION */
+
+    .reaction {
+        margin: 25px 0;
+        background: #f5f5f5;
+        border-top: 5px solid #111;
+        padding: 16px;
+    }
+
+    .reaction h3 {
+        font-family: Georgia, serif;
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+
+    .reaction-item {
+        padding: 13px 0;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    .reaction-item:last-child {
+        border: none;
+    }
+
+    .reaction-time {
+        color: var(--red);
+        font-weight: 900;
+        font-size: 11px;
+    }
+
+    .reaction-text {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+
+    /* BREAKING NUMBER */
+
+    .stat {
+        text-align: center;
+        margin: 35px 0;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding: 25px 5px;
+    }
+
+    .stat-number {
+        color: var(--red);
+        font-size: 57px;
+        font-weight: 900;
+        line-height: 1;
+    }
+
+    .stat-text {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 8px;
+        text-transform: uppercase;
+    }
+
+    /* GALLERY */
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        margin: 20px -17px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 235px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .gallery img:first-child {
+        grid-column: span 2;
+        height: 370px;
+    }
+
+    /* RELATED */
+
+    .related {
+        background: #f4f4f4;
+        padding: 25px 15px 35px;
+    }
+
+    .related-title {
+        border-top: 5px solid var(--red);
+        padding-top: 9px;
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 17px;
+    }
+
+    .related-card {
+        background: white;
+        margin-bottom: 14px;
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        min-height: 110px;
+    }
+
+    .related-card img {
+        width: 120px;
+        height: 110px;
+        object-fit: cover;
+    }
+
+    .related-content {
+        padding: 11px;
+    }
+
+    .related-content small {
+        color: var(--red);
+        font-weight: 900;
+        font-size: 9px;
+    }
+
+    .related-content h4 {
+        font-family: Georgia, serif;
+        font-size: 15px;
+        margin-top: 5px;
+        line-height: 1.15;
+    }
+
+    /* COMMENTS */
+
+    .comments {
+        padding: 25px 16px;
+    }
+
+    .comment-title {
+        font-size: 22px;
+        font-weight: 900;
+        padding-bottom: 10px;
+        border-bottom: 4px solid #111;
+    }
+
+    .comment {
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .comment-user {
+        font-weight: 900;
+        font-size: 12px;
+    }
+
+    .comment-text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .comment-data {
+        font-size: 10px;
+        color: #888;
+        margin-top: 5px;
+    }
+
+    footer {
+        background: #111;
+        color: #aaa;
+        padding: 35px 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    footer .footer-logo {
+        font-family: Georgia, serif;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 13px;
+    }
+
+    footer .footer-logo span {
+        color: red;
+    }
+
+    @media (min-width: 700px) {
+        body {
+            background: #eee;
+        }
+
+        .page,
+        header,
+        .breaking {
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+            background: white;
+        }
+
+        .breaking {
+            background: red;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="parody-bar">
+    SATIRE / PARODY • THE STORIES YOU DIDN'T KNOW YOU NEEDED
+</div>
+
+<header>
+
+    <div class="header-main">
+
+        <div class="menu">☰</div>
+
+        <div class="logo">
+            THE ATHENS<br>
+            <span>FILE</span>
+        </div>
+
+        <div class="search">⌕</div>
+
+    </div>
+
+    <div class="nav">
+        <span>HOME</span>
+        <span>BREAKING</span>
+        <span>CELEBRITY</span>
+        <span>ATHENS</span>
+        <span>LAW</span>
+        <span>SPORT</span>
+        <span>INVESTIGATIONS</span>
+    </div>
+
+</header>
+
+
+<div class="breaking">
+
+    <div class="breaking-label">
+        BREAKING
+    </div>
+
+    <div class="breaking-text">
+        ISIDORA GKOUNIDI ATTENDS TRANNOS CONCERT IN KEA • NATION DEMANDS ANSWERS • LEGAL COMMUNITY MONITORING SITUATION
+    </div>
+
+</div>
+
+
+<main class="page">
+
+    <div class="category">
+        EXCLUSIVE • KEA
+    </div>
+
+    <h1>
+        ONE PHOTO THAT CHANGED EVERYTHING.
+    </h1>
+
+    <div class="subheadline">
+        Stephenson Harwood lawyer Isidora Gkounidi was spotted at a Trannos concert — and eyewitnesses say Greek society may never fully recover.
+    </div>
+
+    <div class="meta">
+        By <strong>THE ATHENS FILE INVESTIGATIONS UNIT</strong><br>
+        Published 21:47 • Updated continuously because this story is developing
+    </div>
+
+    <div class="share-row">
+        <div class="share">f</div>
+        <div class="share">X</div>
+        <div class="share">WA</div>
+        <div class="share">↗</div>
+    </div>
+
+
+    <div class="hero-wrap">
+
+        <img
+            src="unnamed.png"
+            class="hero"
+            alt="Isidora at the concert"
+        >
+
+        <div class="exclusive">
+            WORLD EXCLUSIVE
+        </div>
+
+    </div>
+
+    <div class="caption">
+        THE PHOTO: A routine evening in Kea suddenly became one of the most closely followed cultural events of the summer.
+    </div>
+
+
+    <article class="article">
+
+        <p>
+            What began as an apparently normal summer evening on the Greek island of
+            <strong>Kea</strong> has developed into what experts are already calling
+            <span class="red">“an event of almost unreasonable importance.”</span>
+        </p>
+
+        <p>
+            Isidora Gkounidi, known in professional circles for her work as a lawyer at
+            <strong>Stephenson Harwood</strong>, was seen attending a concert by Greek rapper
+            <strong>Trannos</strong>.
+        </p>
+
+        <p>
+            That alone would have been enough.
+        </p>
+
+        <p>
+            But then came <strong>the photograph.</strong>
+        </p>
+
+
+        <div class="live-box">
+
+            <div class="live-title">
+                ● LIVE UPDATE
+            </div>
+
+            <div class="live-main">
+                PHOTO WITH TRANNOS CONFIRMED.
+            </div>
+
+            <div class="live-small">
+                Authorities have not asked citizens to remain indoors.
+            </div>
+
+        </div>
+
+
+        <p>
+            Sources close to absolutely nobody told <em>The Athens File</em> that the encounter
+            happened during the evening, with Gkounidi appearing remarkably calm despite
+            finding herself at the centre of a developing national situation.
+        </p>
+
+
+        <blockquote>
+            “We thought it was just a concert. We were wrong.”
+        </blockquote>
+
+
+        <p>
+            Witnesses report that music continued playing after the photograph was taken,
+            suggesting organisers had either not yet understood the significance of what
+            had happened or had made the controversial decision to continue the event.
+        </p>
+
+
+        <div class="reaction">
+
+            <h3>Minute-by-minute reaction</h3>
+
+            <div class="reaction-item">
+                <div class="reaction-time">21:41</div>
+                <div class="reaction-text">
+                    Isidora Gkounidi reportedly arrives at the Trannos concert.
+                </div>
+            </div>
+
+            <div class="reaction-item">
+                <div class="reaction-time">21:52</div>
+                <div class="reaction-text">
+                    No immediate signs of the historical consequences to follow.
+                </div>
+            </div>
+
+            <div class="reaction-item">
+                <div class="reaction-time">22:14</div>
+                <div class="reaction-text">
+                    Contact with Trannos established.
+                </div>
+            </div>
+
+            <div class="reaction-item">
+                <div class="reaction-time">22:15</div>
+                <div class="reaction-text">
+                    THE PHOTO IS TAKEN.
+                </div>
+            </div>
+
+            <div class="reaction-item">
+                <div class="reaction-time">22:16</div>
+                <div class="reaction-text">
+                    Greece enters a new era.
+                </div>
+            </div>
+
+        </div>
+
+
+        <h2 class="section-title">
+            A legal career meets Greek trap
+        </h2>
+
+        <p>
+            For years, lawyers across the world have dealt with mergers, disputes,
+            contracts and complex international matters.
+        </p>
+
+        <p>
+            Few, however, were prepared for this.
+        </p>
+
+        <p>
+            The sight of a Stephenson Harwood lawyer at a Trannos concert has already
+            raised important questions about the future relationship between
+            <strong>international law and Greek trap music.</strong>
+        </p>
+
+        <p>
+            No formal guidance has yet been issued.
+        </p>
+
+
+        <div class="stat">
+
+            <div class="stat-number">
+                1
+            </div>
+
+            <div class="stat-text">
+                photograph required to destabilise the entire summer news cycle
+            </div>
+
+        </div>
+
+
+        <h2 class="section-title">
+            Andriana Theodoropoulou enters the story
+        </h2>
+
+        <img
+            src="IMG_8314.jpeg"
+            class="story-image"
+            alt="Andriana Theodoropoulou"
+        >
+
+        <p class="image-caption">
+            THE FAN INCIDENT: Fencer Andriana Theodoropoulou was also present during the wider social saga.
+        </p>
+
+        <p>
+            As if the evening needed another major name, the story also features
+            <strong>Andriana Theodoropoulou</strong>, the fencer and new Panathinaikos
+            acquisition.
+        </p>
+
+        <p>
+            Theodoropoulou — seen in photographic evidence holding what analysts have
+            identified as a blue <strong>“HAPPY DOG” fan</strong> — has now become an
+            important figure in the wider investigation.
+        </p>
+
+        <p>
+            The fan's precise role remains unclear.
+        </p>
+
+
+        <blockquote>
+            “The presence of both law and elite fencing in the same story has made this unprecedented.”
+        </blockquote>
+
+
+        <h2 class="section-title">
+            Who exactly is Isidora Gkounidi?
+        </h2>
+
+        <p>
+            Away from the chaos in Kea, Gkounidi appears to live what investigators
+            describe as an alarmingly normal life.
+        </p>
+
+        <p>
+            Photographic archives examined by <em>The Athens File</em> show restaurants,
+            flights, trips, friends and at least one handbag being held at an unusually
+            confident altitude.
+        </p>
+
+
+        <div class="gallery">
+
+            <img src="IMG_3498.jpeg" alt="Gallery">
+
+            <img src="IMG_4756.jpeg" alt="Gallery">
+
+            <img src="IMG_5929.jpeg" alt="Gallery">
+
+            <img src="IMG_9284.jpg" alt="Gallery">
+
+            <img src="IMG_8589.jpeg" alt="Gallery">
+
+        </div>
+
+
+        <p>
+            Experts say none of these earlier images gave any obvious warning that a
+            Trannos-related development was imminent.
+        </p>
+
+
+        <h2 class="section-title">
+            Markets remain open
+        </h2>
+
+        <p>
+            Despite growing public interest, European financial markets are expected to
+            continue operating normally.
+        </p>
+
+        <p>
+            The euro also remains legal tender.
+        </p>
+
+        <p>
+            Flights are departing Athens International Airport as scheduled, and there are
+            currently no reports of emergency meetings at NATO.
+        </p>
+
+        <p>
+            Nevertheless, <em>The Athens File</em> will continue to monitor the situation.
+        </p>
+
+
+        <div class="live-box">
+
+            <div class="live-title">
+                BREAKING ANALYSIS
+            </div>
+
+            <div class="live-main">
+                Could there be a second Trannos photo?
+            </div>
+
+            <div class="live-small">
+                Investigators refuse to rule anything out.
+            </div>
+
+        </div>
+
+
+        <h2 class="section-title">
+            What happens now?
+        </h2>
+
+        <p>
+            For the moment, life continues.
+        </p>
+
+        <p>
+            Stephenson Harwood continues to practise law.
+        </p>
+
+        <p>
+            Panathinaikos continues to exist.
+        </p>
+
+        <p>
+            Kea remains geographically where it was before the incident.
+        </p>
+
+        <p>
+            And Trannos has, according to all available evidence, survived the encounter.
+        </p>
+
+        <p>
+            But for those who were there, one question remains:
+        </p>
+
+        <blockquote>
+            Where were you when Isidora met Trannos?
+        </blockquote>
+
+    </article>
+
+
+    <section class="related">
+
+        <div class="related-title">
+            MORE STORIES SHAKING THE NATION
+        </div>
+
+
+        <div class="related-card">
+
+            <img src="IMG_3146.jpeg">
+
+            <div class="related-content">
+                <small>DEVELOPING</small>
+
+                <h4>
+                    Second image emerges as investigators expand Kea inquiry
+                </h4>
+            </div>
+
+        </div>
+
+
+        <div class="related-card">
+
+            <img src="IMG_3498.jpeg">
+
+            <div class="related-content">
+                <small>EXCLUSIVE</small>
+
+                <h4>
+                    Handbag raised above head: what did she know and when did she know it?
+                </h4>
+            </div>
+
+        </div>
+
+
+        <div class="related-card">
+
+            <img src="IMG_4756.jpeg">
+
+            <div class="related-content">
+                <small>AVIATION</small>
+
+                <h4>
+                    Lawyer photographed on aircraft months before Trannos encounter
+                </h4>
+            </div>
+
+        </div>
+
+
+        <div class="related-card">
+
+            <img src="IMG_8314.jpeg">
+
+            <div class="related-content">
+                <small>SPORT</small>
+
+                <h4>
+                    Panathinaikos fencer spotted with mysterious blue fan
+                </h4>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="comments">
+
+        <div class="comment-title">
+            847 COMMENTS
+        </div>
+
+        <div class="comment">
+
+            <div class="comment-user">
+                GreekCitizen1974
+            </div>
+
+            <div class="comment-text">
+                I remember exactly where I was when I heard.
+            </div>
+
+            <div class="comment-data">
+                ▲ 4.8K &nbsp; • &nbsp; 3 minutes ago
+            </div>
+
+        </div>
+
+
+        <div class="comment">
+
+            <div class="comment-user">
+                LegalEagleAthens
+            </div>
+
+            <div class="comment-text">
+                As a lawyer I can confirm we received no training for this.
+            </div>
+
+            <div class="comment-data">
+                ▲ 3.2K &nbsp; • &nbsp; 7 minutes ago
+            </div>
+
+        </div>
+
+
+        <div class="comment">
+
+            <div class="comment-user">
+                KeaLocal
+            </div>
+
+            <div class="comment-text">
+                Island has been different ever since.
+            </div>
+
+            <div class="comment-data">
+                ▲ 2.9K &nbsp; • &nbsp; 11 minutes ago
+            </div>
+
+        </div>
+
+
+        <div class="comment">
+
+            <div class="comment-user">
+                FencingNewsDaily
+            </div>
+
+            <div class="comment-text">
+                Still waiting for official clarification regarding the Happy Dog fan.
+            </div>
+
+            <div class="comment-data">
+                ▲ 7.1K &nbsp; • &nbsp; 14 minutes ago
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            THE ATHENS <span>FILE</span>
+        </div>
+
+        Investigating the stories Greece absolutely did not ask us to investigate.
+
+        <br><br>
+
+        SATIRE / PARODY • FOR ENTERTAINMENT PURPOSES
+
+        <br><br>
+
+        © 2026 The Athens File
+
+    </footer>
+
+</main>
+
+
+<script>
+
+    // Fake changing live viewer count
+
+    const createViewerCounter = () => {
+
+        const counter = document.createElement("div");
+
+        counter.style.position = "fixed";
+        counter.style.bottom = "15px";
+        counter.style.left = "50%";
+        counter.style.transform = "translateX(-50%)";
+        counter.style.background = "rgba(0,0,0,.92)";
+        counter.style.color = "white";
+        counter.style.padding = "10px 15px";
+        counter.style.borderRadius = "25px";
+        counter.style.fontSize = "11px";
+        counter.style.fontWeight = "bold";
+        counter.style.zIndex = "5000";
+        counter.style.boxShadow = "0 5px 25px rgba(0,0,0,.25)";
+
+        document.body.appendChild(counter);
+
+        let viewers = 12482;
+
+        function update() {
+
+            viewers += Math.floor(Math.random() * 150);
+
+            counter.innerHTML =
+                "🔴 " +
+                viewers.toLocaleString() +
+                " people following this historic event";
+
+        }
+
+        update();
+
+        setInterval(update, 2500);
+
+    };
+
+    createViewerCounter();
+
+</script>
+ 
+</body>
+</html>
